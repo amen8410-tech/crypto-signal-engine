@@ -23,4 +23,4 @@ jobs:
         env:
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-        run: python main.py
+        run: python crypto_signal_engine.py
